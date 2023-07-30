@@ -33,6 +33,11 @@ body{
     .op{
         margin-left: 0px !important;
     }
+
+    .goal-div, .reach{
+        max-width: 100% !important;
+        margin: 0px;
+    }
 }
 
 .about-img{
