@@ -20,8 +20,9 @@ body{
 }
 
 @media (max-width: 540px){
-    .profile .row{
-        margin-left: 0px;
+    .profile .row,.profile .container{
+        margin-left: 0px !important;
+        padding-left: 0px !important;
     }
 }
 
