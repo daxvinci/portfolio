@@ -35,6 +35,10 @@ body{
     }
 }
 
+.about-img{
+    border-radius: 5px;
+}
+
 .hello,h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
