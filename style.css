@@ -1,9 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 .profile{
     background-color: #060C1A;
 }
 
 .container{
-    height: 700px;
+    min-height: 700px;
 }
 
 .pro-pic{
@@ -100,3 +105,4 @@ footer{
     width: 60%;
     margin: auto;
 }
+
