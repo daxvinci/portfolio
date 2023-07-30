@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container{
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      height: 748px;
+      width: 748px;
+      gap: 9px;
+      justify-content: center;
+    }
+    .red{
+      background-color:#E72F24;
+      /*height: 414px;
+      width: 320px;*/
+    }
+    .white1{
+      background-color: pink;
+      /*height: 414px;
+      width: 419px;*/
+      grid-column: span 3;
+    }
+    .white2{
+      background-color: pink;
+      /*height: 294px;
+      width: 320px;*/
+      grid-row: span 2;
+    }
+    .white3{
+      background-color: pink;
+      /*height: 294px;
+      width:  360px;*/
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+    .white4{
+      background-color: pink;
+      /*height: 184px;
+      width: 50px;*/
+      grid-row: span 2;
+    }
+    .white5{
+      background-color: pink;
+      /*height: 20px;
+      width: 320px;*/
+      /*grid-row-start: 4;
+      grid-row-end: 5;*/
+    }
+    
+    .blue{
+      background-color: #004592;
+      /*height: 130px;
+      width: 50px;*/
+    }
+    .yellow{
+      background-color: #F9D01E;
+      /*height: 20px;
+      width: 198px;*/
+    }
+    .black{
+      background-color: #232629;
+      /*height: 20px;
+      width: 153px;*/
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="rec red"></div>
+    <div class="rec white1"></div>
+
+    <div class="rec white2"></div>
+    <div class="rec white3"></div>
+    <div class="rec blue"></div>
+    <div class="rec white4"></div>
+
+    <div class="rec white5"></div>
+    <div class="rec yellow"></div>
+    <div class="rec black"></div>
+    
+ </div>
+</body>
+
+</html>
