@@ -72,11 +72,11 @@ p{
 }
 
 .parabout{
-    min-width: 60%;
+    max-width: 60%;
 }
 
 .about1{
-    min-width: 60%;
+    max-width: 60%;
     align-self: flex-end;
     margin-left: auto;
 }
