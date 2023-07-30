@@ -49,7 +49,7 @@ p{
 } */
 
 .mypic{
-    height: 100px;
+    min-height: 100px;
     border-radius: 50%;
 }
 
@@ -68,27 +68,27 @@ p{
 } */
 
 .about-img{
-    height: 200px;
+    min-height: 200px;
 }
 
 .parabout{
-    width: 60%;
+    min-width: 60%;
 }
 
 .about1{
-    width: 60%;
+    min-width: 60%;
     align-self: flex-end;
     margin-left: auto;
 }
 
 .goal-div{
     align-self: center;
-    width:50%;
+    min-width:50%;
     margin: auto;
 }
 
 .about-me{
-    padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 .about1,.about2,.about3{
@@ -97,12 +97,12 @@ p{
 
 footer{
     background-color: #0a061a;
-    height:100px;
+    min-height:100px;
 }
 
 .reach{
     text-align: center;
-    width: 60%;
+    min-width: 60%;
     margin: auto;
 }
 
