@@ -115,11 +115,13 @@ p{
 
 .about-me{
     padding-top: 30px;
+    font-family:'Playfair Display', serif;
 }
 
 .about1,.about2,.about3{
     padding-top: 50px;
     max-width: 60%;
+    font-family:'Playfair Display', serif !important ;
 }
 
 footer{
