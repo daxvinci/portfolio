@@ -117,7 +117,9 @@ p{
     padding-top: 30px;
     font-family:'Playfair Display', serif;
 }
-
+.lead{
+    font-family:'Playfair Display', serif;
+}
 .about1,.about2,.about3{
     padding-top: 50px;
     max-width: 60%;
