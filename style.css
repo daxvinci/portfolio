@@ -138,6 +138,6 @@ footer{
     max-width: 60%;
     margin: auto;
 }
-/* .col img{
-    background-size:cover;
-} */
+.col img{
+    background-size:50%;
+}
