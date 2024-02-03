@@ -40,9 +40,9 @@ body{
         margin: 0px;
     }
 }
-.card{
+/* .card{
     overflow:hidden;
-}
+} */
 .about-img{
     border-radius: 5px;
 }
@@ -140,4 +140,8 @@ footer{
 }
 .col img{
     background-size:50%;
+}
+.background{
+    height: 250px !important;
+    background-size: cover;
 }
