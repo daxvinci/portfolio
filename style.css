@@ -2,10 +2,28 @@ body{
     margin: 0px;
     padding: 0px;
     font-family:'Playfair Display', serif !important ;
+    background-image: url("./assets/tech.jpg");
+    background-size:contain;
+    background-repeat:round;
+    background-attachment:fixed;
+   
 }
-
+/* .pattern{
+    background-image: url("./assets/tech.jpg");
+    background-size: contain;
+    background-repeat:round;
+    position: absolute;
+    z-index: 5;
+    opacity: 0.5;
+} */
 .profile{
-    background-color: #060C1A;
+    background-image: url("./assets/tech.jpg");
+    background-size:contain;
+    background-repeat:round;
+    background-attachment:fixed;
+    /* background-color: #060C1A;
+
+    opacity: 0.3; */
 }
 
 .container{
@@ -62,7 +80,8 @@ p{
 
 .projects,.about{
     /* background-color: #0C1833; */
-    background-color: 	#06161a;
+    /* background-color: 	#06161a; */
+    background: rgba(6, 12, 26, 0.9);
 }
 
 .projects h2{
