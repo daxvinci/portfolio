@@ -15,7 +15,32 @@ body{
     
     /* background-color: #060C1A; */
 }
-.pattern{
+        /* Define the container for the fading background image */
+        .pattern {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Place behind other content */
+            overflow: hidden;
+        }
+
+        /* Define the background image and fading animation */
+        .front-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("./assets/Vector\ 2.png");
+            background-size: cover;
+            /* background-repeat: round ; */
+            /* background-position: center; */
+            opacity: 0; /* Initially set opacity to 0 */
+            animation: fadeIn 2s ease forwards; /* Apply fadeIn animation */
+        }
+/* .pattern{
     height: 100%;
     width: 100%;
     position:fixed;
@@ -30,26 +55,27 @@ body{
     position:absolute;
     top: 0;
     left: 0;
-    /* background-color: #0a061a; */
+    background-color: #0a061a;
     background-image: url("./assets/Vector\ 2.png");
     background-size:contain;
     background-repeat:round;
     background-attachment:fixed;
     transition: 3s;
     animation: pattern-anim 3s ease forwards;
-    /* animation-name: pattern-anim;
+    animation-name: pattern-anim;
     animation-direction:normal;
     animation-play-state: running;
     animation-timing-function:ease;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 1; */
-}
-@keyframes pattern-anim {
-    0%{
+    animation-iteration-count: 1;
+} */
+
+@keyframes fadeIn {
+    from{
         opacity: 0;
     }
-    20%{
+    /* 20%{
         opacity: 0.2;
     }
     40%{
@@ -59,9 +85,9 @@ body{
         opacity: 0.6;
     }
     80%{
-        opacity: 0.8;
-    }
-    100%{
+        opacity: 0.8; 
+    }*/
+    to{
         opacity: 1;
     }
 }
