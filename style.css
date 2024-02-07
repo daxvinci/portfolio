@@ -1,28 +1,100 @@
 body{
     margin: 0px;
     padding: 0px;
+    height: 100%;
+    width: 100%;
     font-family:'Playfair Display', serif !important ;
-    background-image: url("./assets/tech.jpg");
+    /* background-image: url("./assets/Vector\ 2.png");
     background-size:contain;
-    background-repeat:round;
-    background-attachment:fixed;
-   
-}
-/* .pattern{
-    background-image: url("./assets/tech.jpg");
-    background-size: contain;
-    background-repeat:round;
-    position: absolute;
-    z-index: 5;
-    opacity: 0.5;
-} */
-.profile{
-    background-image: url("./assets/tech.jpg");
-    background-size:contain;
-    background-repeat:round;
-    background-attachment:fixed;
+    background-position: center;
+    background-repeat:round; */
+    /* opacity: 0;
+    animation: pattern-anim 2s ease forwards; */
+    /* background-attachment:fixed; */
+
+    
     /* background-color: #060C1A; */
 }
+.pattern{
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    /* background-color: #0a061a; */
+    background-image: url("./assets/Vector\ 2.png");
+    background-size:contain;
+    background-repeat:round;
+    background-attachment:fixed;
+    transition: 3s;
+    animation: pattern-anim 3s ease forwards;
+    /* animation-name: pattern-anim;
+    animation-direction:normal;
+    animation-play-state: running;
+    animation-timing-function:ease;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1; */
+}
+@keyframes pattern-anim {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes pro-anim {
+    from{
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes protxt-anim {
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+/* .profile{
+    background-image: url("./assets/Vector\ 2.png");
+    background-size:contain;
+    background-repeat:round;
+    background-attachment:fixed;
+    background-color: #060C1A;
+} */
 
 .container{
     min-height: 700px;
@@ -30,8 +102,23 @@ body{
 
 .pro-pic{
     border-radius: 50%;
+    animation-name: pro-anim;
+    animation-direction:normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
-
+.pro-txt{
+    animation-name: protxt-anim;
+    animation-direction:normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
 .profile .row{
     margin-left: 50px;
 }
