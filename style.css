@@ -22,7 +22,7 @@ body{
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: -1; /* Place behind other content */
+            z-index: -9; /* Place behind other content */
             overflow: hidden;
         }
 
@@ -33,6 +33,7 @@ body{
             left: 0;
             width: 100%;
             height: 100%;
+            z-index: -8; 
             background-image: url("./assets/Vector\ 2.png");
             background-size: cover;
             /* background-repeat: round ; */
